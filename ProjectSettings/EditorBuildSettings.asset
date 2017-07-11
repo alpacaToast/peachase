@@ -6,5 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Menu.unity
+    guid: 496743ce08cc34fe4a45cd6808002fb9
+  - enabled: 1
+    path: "Assets/Op\xE7\xF5es.unity"
+    guid: e72aae9a2fa3cc14f893a813dedb9167
+  - enabled: 1
+    path: Assets/Tutorial.unity
+    guid: 003083339e90c444da9bd64bc9f8acff
+  - enabled: 1
+    path: Assets/InitialCutscene.unity
+    guid: 71123e05f3636f54bbed538ae86c2aba
+  - enabled: 1
     path: Assets/Main.unity
     guid: 89e9d1d5a41dc4e12b66eef4854d3d6c
+  - enabled: 1
+    path: Assets/GameOver.unity
+    guid: 42c9a63ee0ccfc940a30346b45364d86
+  - enabled: 1
+    path: Assets/FinalCutscene.unity
+    guid: de3bf43dc273e4ec48e8d5349dfcdf10
+  - enabled: 1
+    path: Assets/Credits.unity
+    guid: 00000000000000000000000000000000

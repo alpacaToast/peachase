@@ -5,6 +5,7 @@ class Obstacle : MonoBehaviour {
     public float height;
     public Rigidbody2D rb2d;
     public bool canAddScore;
+    public int points;
 
     void Awake()
     {
@@ -28,13 +29,12 @@ class Obstacle : MonoBehaviour {
             if (this.canAddScore)
             {
                 Debug.Log(this.name + " colided with ScoreCollider");
-                GameObject.Find("Player").GetComponent<Player>().score.AddPoint(1);
+                GameObject.Find("Player").GetComponent<Player>().score.AddPoint(this.points);
             }
         }
 
         if (col.tag == "Barrier")
         {
-            GetComponentInParent<LevelManager>().obstacleCount++;
             Destroy(this.gameObject);
         }
     }
